@@ -1,4 +1,9 @@
 # Write a python Program.If it is  +VE Or -VE or ZERO
-n=float(input("Enter Any Numerical Value:"))
-res="+VE"  if n>0 else "-VE" if n<0 else "ZERO"
-print("{} is {}".format(n,res))
+val=float(input("Enter Any Numerical Value:"))#10
+if(val>0):
+    print("\t{} is +VE".format(val))
+elif(val<0):
+    print("\t{} is -VE".format(val))
+else:
+    print("\t{} is ZERO".format(val))
+print("I am from Outer-if-else Statement ")
