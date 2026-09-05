@@ -1,5 +1,6 @@
 # Write a python Program.If it is Even or Odd
-n=float(input("Enter Any Numerical Value:"))
-n=-15
-res="EVEN" if (n>0) and (n%2==0) else "ODD" if(n>0) and (n%2!=0) else "Invalid Input "
-print("{} is {}".format(n,res))
+value=input("Enter Any Value:")
+if(value==value[::-1]):
+    print("\t{} is Palindrome ".format(value))
+elif (value != value[::-1]):
+    print("\t{} is not Palindrome".format(value))
